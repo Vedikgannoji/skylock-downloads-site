@@ -8,12 +8,12 @@ export const TeamSection: React.FC = () => {
     <section id="team" className="section" aria-labelledby="team-heading">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">Engineering Group</span>
+          <span className="section-tag">Engineering Group • Team ID: {APP_CONFIG.teamId}</span>
           <h2 id="team-heading" className="section-title">
             Meet Team {APP_CONFIG.teamName}
           </h2>
           <p className="section-description">
-            Six members. One mission. Engineering precision in satellite tracking.
+            Team ID: {APP_CONFIG.teamId} • Six members. One mission. Engineering precision in satellite tracking.
           </p>
         </div>
 
