@@ -13,7 +13,7 @@ export const TeamSection: React.FC = () => {
             Meet Team {APP_CONFIG.teamName}
           </h2>
           <p className="section-description">
-            Team ID: {APP_CONFIG.teamId} • Six members. One mission. Engineering precision in satellite tracking.
+            <strong>Team ID: {APP_CONFIG.teamId}</strong>
           </p>
         </div>
 
