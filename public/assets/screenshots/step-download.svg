@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" fill="none">
+  <!-- Windows Explorer Window Frame -->
+  <rect width="600" height="360" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <!-- Title bar -->
+  <rect width="600" height="36" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="18" cy="18" r="4.5" fill="#EF4444"/>
+  <circle cx="32" cy="18" r="4.5" fill="#F59E0B"/>
+  <circle cx="46" cy="18" r="4.5" fill="#10B981"/>
+  <text x="300" y="22" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#4B5563" text-anchor="middle">Downloads — File Explorer</text>
+
+  <!-- Address Bar -->
+  <rect x="16" y="46" width="568" height="30" rx="4" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="32" y="66" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#4B5563">This PC &gt; Downloads</text>
+
+  <!-- Table Header -->
+  <rect x="16" y="86" width="568" height="26" fill="#F9FAFB"/>
+  <text x="32" y="103" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#6B7280">Name</text>
+  <text x="340" y="103" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#6B7280">Date modified</text>
+  <text x="460" y="103" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#6B7280">Type</text>
+  <text x="530" y="103" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#6B7280">Size</text>
+
+  <!-- Row 1: SkyLock-Portable.zip (Selected/Highlighted) -->
+  <rect x="16" y="116" width="568" height="42" rx="4" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <!-- ZIP icon -->
+  <rect x="28" y="127" width="16" height="20" rx="2" fill="#3B82F6"/>
+  <rect x="32" y="130" width="8" height="5" fill="#FFFFFF"/>
+  <text x="56" y="142" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1D4ED8">SkyLock-Portable.zip</text>
+  <text x="340" y="142" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#4B5563">Today, 21:30</text>
+  <text x="460" y="142" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#4B5563">Compressed (zipped)</text>
+  <text x="530" y="142" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1D4ED8">300 MB</text>
+
+  <!-- Row 2: VYSAM-26169-PRESENTATION.pdf -->
+  <rect x="16" y="162" width="568" height="38" fill="#FFFFFF"/>
+  <!-- PDF icon -->
+  <rect x="28" y="172" width="16" height="20" rx="2" fill="#EF4444"/>
+  <text x="32" y="184" font-family="Inter, system-ui, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">PDF</text>
+  <text x="56" y="186" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#374151">VYSAM-26169-PRESENTATION.pdf</text>
+  <text x="340" y="186" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280">Today, 21:28</text>
+  <text x="460" y="186" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280">PDF Document</text>
+  <text x="530" y="186" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280">9.5 MB</text>
+
+  <!-- Download indicator badge -->
+  <g transform="translate(160, 240)">
+    <rect width="280" height="70" rx="8" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.05))"/>
+    <circle cx="36" cy="35" r="16" fill="#EFF6FF"/>
+    <path d="M36,26 L36,40 M30,34 L36,40 L42,34" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="30" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#111827">Download Completed</text>
+    <text x="64" y="48" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280">SkyLock-Portable.zip (Verified archive)</text>
+  </g>
+</svg>

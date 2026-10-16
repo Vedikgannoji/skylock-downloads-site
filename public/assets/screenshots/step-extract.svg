@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" fill="none">
+  <!-- Windows Explorer Window Frame -->
+  <rect width="600" height="360" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <!-- Title bar -->
+  <rect width="600" height="36" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="18" cy="18" r="4.5" fill="#EF4444"/>
+  <circle cx="32" cy="18" r="4.5" fill="#F59E0B"/>
+  <circle cx="46" cy="18" r="4.5" fill="#10B981"/>
+  <text x="300" y="22" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#4B5563" text-anchor="middle">Downloads &gt; Extract Compressed (Zipped) Folders</text>
+
+  <!-- Background file row -->
+  <rect x="24" y="52" width="552" height="40" rx="4" fill="#F3F4F6"/>
+  <rect x="36" y="62" width="16" height="20" rx="2" fill="#3B82F6"/>
+  <text x="64" y="77" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#1F2937">SkyLock-Portable.zip</text>
+
+  <!-- Extract Compressed Folders Dialog Mockup -->
+  <g transform="translate(60, 80)">
+    <rect width="480" height="240" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5" filter="drop-shadow(0 10px 15px rgba(0,0,0,0.08))"/>
+    <!-- Dialog Header -->
+    <rect width="480" height="34" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="22" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#111827">Extract Compressed (Zipped) Folders</text>
+    <text x="456" y="22" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#9CA3AF">✕</text>
+
+    <!-- Dialog Content -->
+    <text x="24" y="62" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#111827">Select a Destination and Extract Files</text>
+    <text x="24" y="82" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280">Files will be extracted to this folder:</text>
+
+    <!-- Path Input Box -->
+    <rect x="24" y="94" width="340" height="32" rx="4" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.5"/>
+    <text x="34" y="115" font-family="monospace" font-size="11" fill="#1F2937">C:\Users\User\Downloads\SkyLock-Portable</text>
+    
+    <!-- Browse Button -->
+    <rect x="374" y="94" width="82" height="32" rx="4" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="415" y="115" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#374151" text-anchor="middle">Browse...</text>
+
+    <!-- Checkbox -->
+    <rect x="24" y="142" width="16" height="16" rx="3" fill="#2563EB"/>
+    <path d="M28,150 L31,153 L36,146" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="48" y="155" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#374151">Show extracted files when complete</text>
+
+    <!-- Action Buttons -->
+    <rect x="270" y="186" width="94" height="32" rx="4" fill="#2563EB"/>
+    <text x="317" y="206" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">Extract</text>
+    
+    <rect x="374" y="186" width="82" height="32" rx="4" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="415" y="206" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#4B5563" text-anchor="middle">Cancel</text>
+  </g>
+</svg>
